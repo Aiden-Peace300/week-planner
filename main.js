@@ -1,5 +1,7 @@
 const $clickButtonList = document.querySelectorAll('.click-button');
 const $closeButton = document.querySelector('.close-button');
+const $timeInput = document.querySelector('#time');
+const $dateInput = document.querySelector('#date');
 
 function clickButton() {
   popup.style.display = 'block';

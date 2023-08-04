@@ -61,6 +61,7 @@ h1 {
 
 h2 {
   margin: 0;
+  font-size: 35px;
 }
 
 .table-container {
@@ -77,7 +78,7 @@ td {
 }
 
 textarea {
-  margin: 0.1rem;
+  margin-bottom: 0.4rem;
 }
 
 #click {
@@ -91,10 +92,6 @@ button {
 /* for the modal */
 * {
   font-family: sans-serif;
-}
-
-h2 {
-  font-size: 35px;
 }
 
 .popup {
@@ -153,4 +150,16 @@ h2 {
   justify-content: flex-end;
   align-content: center;
   width: 100%;
+}
+
+.time-and-date {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0.3rem;
+}
+
+label {
+  margin-right: 0.2rem;
 }
