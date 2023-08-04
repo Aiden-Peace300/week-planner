@@ -32,3 +32,19 @@
     width: 50%;
   }
 }
+
+.column-seventh {
+  flex-basis: calc(100% / 7);
+  display: flex;
+  justify-content: center;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-container {
+  width: 50%;
+  display: flex;
+}
