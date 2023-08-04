@@ -1,17 +1,15 @@
 const $clickButtonList = document.querySelectorAll('.click-button');
 const $closeButton = document.querySelector('.close-button');
-
-const $form = document.querySelector('form');
-
-const $timeInput = document.querySelector('#time');
-const $dateInput = document.querySelector('#date');
-console.log($dateInput);
+const $form = document.querySelector('.form');
 
 function handleSubmit(event) {
-  if (event.target.getAttribute('class') === 'submit') {
-    // const $time = $form.elements.time.value;
-    // const $date = $form.elements.date.value;
+  event.preventDefault();
+  if ($form.getAttribute('class') === 'submit') {
+    const $time = $form.elements.time.value;
+    const $date = $form.elements.date.value;
     console.log(event.target);
+    console.log($time);
+    console.log($date);
   }
 }
 
@@ -34,3 +32,4 @@ function closeButton() {
 }
 
 $closeButton.addEventListener('click', closeButton);
+$form.addEventListener('click', handleSubmit);

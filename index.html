@@ -51,26 +51,28 @@
   </div>
 
   <!-- popup modal -->
-  <div class="popup">
-    <div class="wrapper">
-      <div class="modal-content">
-        <div class="x-button">
-          <button class="close-button">x</button>
+  <form class="form">
+    <div class="popup">
+      <div class="wrapper">
+        <div class="modal-content">
+          <div class="x-button">
+            <button class="close-button">x</button>
+          </div>
+          <h2>ADD EVENT</h2>
+          <div class="time-and-date">
+            <label for="time">Time:</label>
+            <input name="time" type="time" id="time" class="time-button"></input>
+          </div>
+          <div class="time-and-date">
+            <label for="date">Date:</label>
+            <input name="date" type="date" id="date" class="day-button"></input>
+          </div>
+          <textarea cols="50" rows="15">Notes</textarea>
+          <button class="submit" type="submit">SAVE</button>
         </div>
-        <h2>ADD EVENT</h2>
-        <div class="time-and-date">
-          <label for="time">Time:</label>
-          <input name="time" type="time" id="time" class="time-button"></input>
-        </div>
-        <div class="time-and-date">
-          <label for="date">Date:</label>
-          <input name="date" type="date" id="date" class="day-button"></input>
-        </div>
-        <textarea cols="50" rows="15">Notes</textarea>
-        <button class="submit" type="submit">SAVE</button>
       </div>
     </div>
-  </div>
+  </form>
 
   <div class="table-container">
     <form>
