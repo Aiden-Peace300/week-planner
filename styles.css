@@ -106,11 +106,14 @@ h2 {
   align-items: center;
 }
 
-.popup-content {
+.wrapper {
   position: absolute;
-  display: flex;
   top: 50%;
   left: 50%;
+}
+
+.popup-content {
+  display: flex;
   transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 10px;
@@ -121,16 +124,21 @@ h2 {
   padding: 50px 80px;
 }
 
-/* NO RED BUTTON */
+/* CLOSE BUTTON */
 .close-button {
   background-color: #ea5d5d;
   color: white;
-  padding: 15px 55px;
-
-  /* Vertical padding: , Horizontal padding:  */
+  padding: 10px;
   margin-top: 40px;
   border-radius: 5px;
-  font-size: 35px;
+  font-size: 18px;
+}
+
+.x-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  text-align: right;
 }
 
 .click-button {

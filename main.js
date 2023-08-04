@@ -1,4 +1,4 @@
-const $clickButton = document.querySelectorAll('.click-button');
+const $clickButton = document.querySelector('.click-button');
 const $closeButton = document.querySelector('.close-button');
 
 // when you click a day
