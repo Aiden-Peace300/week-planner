@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Week Planner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -21,25 +24,25 @@
 
   <div class="row">
     <div class="column-seventh">
-      <button>Mon</button>
+      <button class="click-button">Mon</button>
     </div>
     <div class="column-seventh">
-      <button>Tues</button>
+      <button class="click-button">Tues</button>
     </div>
     <div class="column-seventh">
-      <button>Wed</button>
+      <button class="click-button">Wed</button>
     </div>
     <div class="column-seventh">
-      <button>Thurs</button>
+      <button class="click-button">Thurs</button>
     </div>
     <div class="column-seventh">
-      <button>Fri</button>
+      <button class="click-button">Fri</button>
     </div>
     <div class="column-seventh">
-      <button>Sat</button>
+      <button class="click-button">Sat</button>
     </div>
     <div class="column-seventh">
-      <button>Sun</button>
+      <button class="click-button">Sun</button>
     </div>
   </div>
   <div class="big-container">
@@ -53,7 +56,7 @@
         <button>Time</button> <button>Day</button>
       </div>
       <div class="row">
-        <textarea>Notes</textarea>
+        <textarea cols="90" rows="20">Notes</textarea>
       </div>
     </div>
   </div>
@@ -75,7 +78,9 @@
           <td>
             <button>yes</button>
           </td>
-          <td>edit icon</td>
+          <td>
+            <i id="click" class="fa fa-pencil"></i>
+          </td>
         </tr>
       </tbody>
     </table>

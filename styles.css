@@ -65,8 +65,21 @@ h1 {
   margin-top: 1rem;
 }
 
+table,
 th,
 td {
-  border: solid;
-  border-collapse: collapse;
+  border: 1px solid black;
+  border-color: black;
+}
+
+textarea {
+  margin: 0.1rem;
+}
+
+#click {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
