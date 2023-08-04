@@ -1,10 +1,7 @@
-* {
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 0.25rem;
-}
-
 body {
   background-color: lightskyblue;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.25rem;
 }
 
 .container {
@@ -163,6 +160,8 @@ button {
   border-radius: 8px;
   padding-right: 30px;
   padding-left: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.25rem;
 }
 
 .x-button {
