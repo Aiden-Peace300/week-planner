@@ -122,7 +122,7 @@ h2 {
 }
 
 /* NO RED BUTTON */
-.closeButton {
+.close-button {
   background-color: #ea5d5d;
   color: white;
   padding: 15px 55px;
