@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
         <div class="column-full">
-          <h1 id="header-style">Weekly Planner</h1>
+          <h1>Weekly Planner</h1>
         </div>
       </div>
     </div>
@@ -42,19 +42,45 @@
       <button>Sun</button>
     </div>
   </div>
-  <div class="event-container">
-    <div class="row">
-      <div class="column-full">
-        <h1>Add Event</h1>
+  <div class="big-container">
+    <div class="event-container">
+      <div class="row">
+        <div class="column-full">
+          <h1>Add Event</h1>
+        </div>
+      </div>
+      <div class="row space">
+        <button>Time</button> <button>Day</button>
+      </div>
+      <div class="row">
+        <textarea>Notes</textarea>
       </div>
     </div>
-    <div class="row space">
-      <button>Time</button> <button>Day</button>
-    </div>
-    <div class="row">
-      <textarea>Notes</textarea>
-    </div>
   </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Delete</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1900</td>
+          <td>Start class</td>
+          <td>
+            <button>yes</button>
+          </td>
+          <td>edit icon</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <script src="main.js"></script>
 </body>
 

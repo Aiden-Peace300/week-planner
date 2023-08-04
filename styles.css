@@ -44,7 +44,29 @@
   justify-content: space-between;
 }
 
+.big-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .event-container {
   width: 50%;
+  border: solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+.table-container {
   display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: solid;
+  border-collapse: collapse;
 }
