@@ -59,6 +59,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin: 0;
+}
+
 .table-container {
   display: flex;
   justify-content: center;
@@ -110,9 +114,10 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 500px;
 }
 
-.popup-content {
+.modal-content {
   display: flex;
   transform: translate(-50%, -50%);
   background-color: #fff;
@@ -121,24 +126,16 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 80px;
+  padding: 1rem;
 }
 
 /* CLOSE BUTTON */
 .close-button {
   background-color: #ea5d5d;
   color: white;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 0 0.35rem;
   border-radius: 5px;
   font-size: 18px;
-}
-
-.x-button {
-  display: flex;
-  justify-content: flex-end;
-  align-items: right;
-  text-align: right;
 }
 
 .click-button {
@@ -149,4 +146,11 @@ h2 {
   border-radius: 8px;
   padding-right: 30px;
   padding-left: 30px;
+}
+
+.x-button {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  width: 100%;
 }

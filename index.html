@@ -45,55 +45,50 @@
       <button class="click-button">Sun</button>
     </div>
   </div>
-  <div class="big-container">
-    <div class="event-container">
-      <div class="row">
-        <div class="column-full">
-          <!-- The Popup -->
-          <div class="popup">
-            <div class="wrapper">
-              <div class="popup-content">
-                <div class="x-button">
-                  <button class="close-button">x</button>
-                </div>
-                <h2>Add Event</h2>
-                <textarea cols="22" rows="5">Notes</textarea>
-                <label for="time">Time</label>
-                <input type="time" id="time" class="time-button"></input>
-                <label for="date">Date</label>
-                <input type="date" id="date" class="day-button"></input>
-                <button type="submit">SAVE</button>
-              </div>
-            </div>
-          </div>
+
+  <!-- popup modal -->
+  <div class="popup">
+    <div class="wrapper">
+      <div class="modal-content">
+        <div class="x-button">
+          <button class="close-button">x</button>
         </div>
+        <h2>Add Event</h2>
+        <label for="time">Time</label>
+        <input type="time" id="time" class="time-button"></input>
+        <label for="date">Date</label>
+        <input type="date" id="date" class="day-button"></input>
+        <textarea cols="22" rows="5">Notes</textarea>
+        <button type="submit">SAVE</button>
       </div>
     </div>
   </div>
 
   <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Activity</th>
-          <th>Delete</th>
-          <th>Edit</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1900</td>
-          <td>Start class</td>
-          <td>
-            <button>yes</button>
-          </td>
-          <td>
-            <i id="click" class="fa fa-pencil"></i>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <form>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Delete</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1900</td>
+            <td>Start class</td>
+            <td>
+              <button>yes</button>
+            </td>
+            <td>
+              <i id="click" class="fa fa-pencil"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
   </div>
 
   <script src="main.js"></script>
